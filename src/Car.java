@@ -8,16 +8,16 @@ public class Car {
    // private int age;
     private int registNumber;
 
-    public Car(int id_, String brand_, int year_, String color_, int cost_, String model_, int registNumber_)
+    public Car(int ID, String Brand, int Year, String Color, int Cost, String Model, int RegistNumber)
     {
-        id = id_;
-        brand = brand_;
-        year = year_;
-        color = color_;
-        cost = cost_;
+        id = ID;
+        brand = Brand;
+        year = Year;
+        color = Color;
+        cost = Cost;
       //  age = age_;
-        model = model_;
-        registNumber = registNumber_;
+        model = Model;
+        registNumber = RegistNumber;
     }
 
     public String getBrand()
